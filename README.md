@@ -1,1 +1,6 @@
-# SDC
+# Description
+
+Github Repo containing all script files for my SDC program, from the University of Chicago Summer REU 2024. It also contains the paper that I wrote, which summarizes the SDC algorithm from a theoretical perspective and evaluates the algorithm's performance when compared to alternatives. The abstract of the paper is pasted below.
+
+## Abstract
+*Numerical methods for approximating a solution to ODEs and PDEs are of great importance to numerical analysis. Euler methods, while intuitive, are susceptible to large amounts of error, and lack the precision that is sometimes required of a particular problem. Deferred correction algorithms seek to enhance the precision of approximations while also improving their rate of convergence with respect to the time step used. This paper aims to explain the foundations of and evaluate the performance of one such deferred correction algorithm, Spectral Deferred Correction (SDC). Analysis of the algorithm’s performance suggests that applying SDC several times greatly improves the precision of an approximation, resulting in lower error than was achieved by Euler methods alone given the same time frame. While SDC is general enough to work with both ODEs and PDEs, this paper only evaluates its performance on a few simple ODEs. Further research could help solidify these findings for a wider range of differential equations.*
